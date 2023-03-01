@@ -10,7 +10,7 @@ public class LevelSettings : ScriptableObject
 	/// Используется для сдвига точки спавна нового тайлика
 	/// </summary>
 	public float tileWidth;
-	
+
 	public Level[] levels;
 }
 

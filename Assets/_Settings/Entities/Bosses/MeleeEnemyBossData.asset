@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf9010046b51942b9d3e4e46815676, type: 3}
+  m_Name: MeleeEnemyBossData
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 3048412511708772179, guid: 351fee8445d418b4bbddafdf221782f3, type: 3}
+  health: 0
+  moveSpeed: 0
+  attackRadius: 0
+  attackPower: 0
+  attackSpeed: 0

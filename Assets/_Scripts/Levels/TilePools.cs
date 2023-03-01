@@ -1,9 +1,13 @@
 using UnityEngine;
 using UnityEngine.Pool;
 
+public enum LevelBiome
+{
+	Forest, Desert, Mountain
+}
+
 public class TilePools : MonoBehaviour
-{	
-	//TODO: !!!!!!!!!! сделать отдельные типы для каждой клетки, а свитчи заменить на дженерик методы !!!!!!!!!!!
+{
 	public Tile forestTilePrefab;
 	public Tile desertTilePrefab;
 	public Tile mountainTilePrefab;
@@ -35,7 +39,7 @@ public class TilePools : MonoBehaviour
 				prefab = mountainTilePrefab.gameObject;
 				break;
 			default:
-				Debug.Log("Unknown Biome");
+				Debug.LogError("Unknown Biome");
 				prefab = null;
 				break;
 		}
@@ -81,9 +85,9 @@ public class TilePools : MonoBehaviour
 		return tile;
 	}
 
-	public void ReleaseTile(Tile _tile, LevelBiome _biome)
+	public void ReleaseTile(Tile _tile)
 	{
-		switch (_biome)
+		switch (_tile.biome)
 		{
 			case LevelBiome.Forest:
 				forestPool.Release(_tile);
