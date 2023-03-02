@@ -44,3 +44,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9922aa87e63f433cbae6376c296e0f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 6105115781918358784, guid: 0bc954f3f608a33419f6293216b7cecf,
+    type: 3}
+  projectileFlightDuration: 1
+  projectileFlightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.1710548
+      outSlope: 2.1710548
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.077800825
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.6833901
+      outSlope: 1.6833901
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08195025
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  projectileVertFlightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.9029167
+      outSlope: 1.9029167
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.062240664
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.0307803
+      outSlope: -2.0307803
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.071576774
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

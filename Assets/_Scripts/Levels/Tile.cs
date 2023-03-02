@@ -9,5 +9,4 @@ public class Tile : MonoBehaviour
 
 	public Transform enemiesPosition;
 	public float enemiesSpawnRadius;
-
 }

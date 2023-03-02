@@ -15,19 +15,23 @@ MonoBehaviour:
   tileSpawnStartPoint: {x: 0, y: 0, z: 0}
   tileWidth: 10
   levels:
-  - biome: 0
+  - biome: 2
     stages:
-    - enemiesCount: 2
+    - enemiesCount: 8
       isBossStage: 0
-    - enemiesCount: 3
+    - enemiesCount: 9
+      isBossStage: 0
+    - enemiesCount: 10
       isBossStage: 0
     - enemiesCount: 1
       isBossStage: 1
+    - enemiesCount: 2
+      isBossStage: 1
     enemyPrefabs:
-    - {fileID: 1099367440718529101, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
     - {fileID: 1099367440718529101, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
     - {fileID: 5661968969075266535, guid: 891a7c66832248b439ba3cc7856c7b06, type: 3}
     bossPrefabs:
+    - {fileID: 6673495701878229624, guid: 53e8c8e706e99cf4fa6ba623997f6921, type: 3}
     - {fileID: 6642077558086990233, guid: b92ebec98db0f7d43bf82f34823a9650, type: 3}
   - biome: 1
     stages:
@@ -46,21 +50,17 @@ MonoBehaviour:
     - {fileID: 5661968969075266535, guid: 891a7c66832248b439ba3cc7856c7b06, type: 3}
     bossPrefabs:
     - {fileID: 6673495701878229624, guid: 53e8c8e706e99cf4fa6ba623997f6921, type: 3}
-  - biome: 2
+  - biome: 0
     stages:
-    - enemiesCount: 8
+    - enemiesCount: 2
       isBossStage: 0
-    - enemiesCount: 9
-      isBossStage: 0
-    - enemiesCount: 10
+    - enemiesCount: 3
       isBossStage: 0
     - enemiesCount: 1
       isBossStage: 1
-    - enemiesCount: 2
-      isBossStage: 1
     enemyPrefabs:
+    - {fileID: 1099367440718529101, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
     - {fileID: 1099367440718529101, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
     - {fileID: 5661968969075266535, guid: 891a7c66832248b439ba3cc7856c7b06, type: 3}
     bossPrefabs:
-    - {fileID: 6673495701878229624, guid: 53e8c8e706e99cf4fa6ba623997f6921, type: 3}
     - {fileID: 6642077558086990233, guid: b92ebec98db0f7d43bf82f34823a9650, type: 3}

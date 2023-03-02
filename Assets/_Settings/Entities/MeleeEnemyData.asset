@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecf9010046b51942b9d3e4e46815676, type: 3}
   m_Name: MeleeEnemyData
   m_EditorClassIdentifier: 
-  weapon: {fileID: 3048412511708772179, guid: 351fee8445d418b4bbddafdf221782f3, type: 3}
-  health: 0
-  moveSpeed: 0
-  attackRadius: 0
-  attackPower: 0
-  attackSpeed: 0
+  health: 10
+  moveSpeed: 4
+  nextTileMoveSpeed: 0
+  attackRadius: 1
+  attackPower: 1
+  attackSpeed: 0.5

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecf9010046b51942b9d3e4e46815676, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  weapon: {fileID: 5188599153656939566, guid: 0183bfdf43cdbc244a70c8f476b876b8, type: 3}
-  health: 0
-  moveSpeed: 0
-  attackRadius: 0
-  attackPower: 0
-  attackSpeed: 0
+  health: 10
+  moveSpeed: 3
+  nextTileMoveSpeed: 4
+  attackRadius: 5
+  attackPower: 1
+  attackSpeed: 1

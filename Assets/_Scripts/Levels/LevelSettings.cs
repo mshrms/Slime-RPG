@@ -20,7 +20,6 @@ public struct Level
 	public LevelBiome biome;
 	public Stage[] stages;
 
-	// TODO: базовые префабы врагов, которые автолевелятся согласно текущему уровню
 	public Enemy[] enemyPrefabs;
 	public Enemy[] bossPrefabs;
 }
